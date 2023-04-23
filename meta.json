@@ -1,0 +1,58 @@
+{
+  "lang":"ru",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.1,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "\u041e\u0411\u0415\u0421\u041f\u0415\u0427\u0415\u041d\u0418\u0415 \u0413\u0410\u0420\u0410\u041d\u0422\u0418\u0419\u041d\u042b\u0425 \u041e\u0411\u042f\u0417\u0410\u0422\u0415\u041b\u042c\u0421\u0422\u0412",
+      "\u041e\u0411\u0415\u0421\u041f\u0415\u0427\u0415\u041d\u0418\u0415 \u0418\u0421\u041f\u041e\u041b\u041d\u0415\u041d\u0418\u042f \u041a\u041e\u041d\u0422\u0420\u0410\u041a\u0422\u0410"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9882845188,
+    "ents_p":0.9882845188,
+    "ents_r":0.9882845188,
+    "ents_per_type":{
+      "\u041e\u0411\u0415\u0421\u041f\u0415\u0427\u0415\u041d\u0418\u0415 \u0418\u0421\u041f\u041e\u041b\u041d\u0415\u041d\u0418\u042f \u041a\u041e\u041d\u0422\u0420\u0410\u041a\u0422\u0410":{
+        "p":0.9886075949,
+        "r":0.983627204,
+        "f":0.9861111111
+      },
+      "\u041e\u0411\u0415\u0421\u041f\u0415\u0427\u0415\u041d\u0418\u0415 \u0413\u0410\u0420\u0410\u041d\u0422\u0418\u0419\u041d\u042b\u0425 \u041e\u0411\u042f\u0417\u0410\u0422\u0415\u041b\u042c\u0421\u0422\u0412":{
+        "p":0.987654321,
+        "r":0.9975062344,
+        "f":0.9925558313
+      }
+    },
+    "transformer_loss":35.7622080615,
+    "ner_loss":32.4867290067
+  }
+}
